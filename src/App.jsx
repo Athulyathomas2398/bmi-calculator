@@ -1,4 +1,3 @@
-
 import './App.css'
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
@@ -49,9 +48,9 @@ const calculateBMI=()=>{
   return (
     <>
 
-    <div className="body-bmi  border border-1 rounded shadow  mt-5 p-5 " style={{width:"480px",height:"500px",marginLeft:"400px"}}>
+    <div className="body-bmi  border border-1 rounded shadow  mt-5 p-5 " >
       <h1 className='h1 text-center p-3 fw-bold fs-3 '>BMI Calculator</h1>
-      <div className="d-flex  p-5 w-100" style={{justifyContent:"space-between"}}>
+      <div className="d-flex  p-5 " style={{justifyContent:"space-between"}}>
       <FloatingLabel onChange={(e)=>setHeight(e.target.value)} className='input w-100 me-5 ' controlId="height" label="Height">
         <Form.Control type="number" placeholder="enter your height " />
       </FloatingLabel>
