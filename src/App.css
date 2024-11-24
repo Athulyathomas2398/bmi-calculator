@@ -29,6 +29,7 @@
   @media (max-width: 480px) {
     .body-bmi{
         margin-left:30px;
+        width: 360px;
     }
   
   }
